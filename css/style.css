@@ -39,6 +39,11 @@ body {
   align-items: center;
 }
 
+.header-photo {
+  width: 240px;
+  height: 240px;
+}
+
 .header-text {
   margin-left: 27px;
 }
