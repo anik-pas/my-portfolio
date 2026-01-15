@@ -19,16 +19,22 @@
       <nav class="navigation">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#" class="nav-link active">Главная</a>
+            <a href="#main" class="nav-link active">Главная</a>
           </li>
-          <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Проекты</a>
+          </li>
+          <li class="nav-item">
+            <a href="#developer" class="nav-link">Обо мне</a>
+          </li>
+          <li class="nav-item">
+            <a href="#feedback" class="nav-link">Связаться</a>
+          </li>
         </ul>
       </nav>
     </div>
     <!-- /.navbar -->
-    <header class="header container">
+    <header class="header container" id="main">
       <img
         src="images/avatar1.png"
         alt="Анна Бурмистрова"
@@ -84,7 +90,7 @@
               /></a>
             </li>
           </ul>
-          <a href="#" class="cv-download" download>
+          <a href="/cv.pdf" class="cv-download" download>
             <img src="images/download.svg" alt="download" class="cv-icon" />
             <span class="cv-text">Скачать резюме</span>
           </a>
@@ -94,7 +100,7 @@
       <!-- /.header-text -->
     </header>
     <!-- /.header -->
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="section-heading">Последние проекты</h2>
         <div class="cards">
@@ -140,7 +146,6 @@
             </div>
             <!-- /.card-text-wrapper -->
           </div>
-          <!-- /.card -->
           <div class="card">
             <img
               src="images/portfolio/image 2.jpg"
@@ -178,14 +183,13 @@
             </div>
             <!-- /.card-text-wrapper -->
           </div>
-          <!-- /.card -->
         </div>
         <!-- /.cards -->
       </div>
       <!-- /.container -->
     </section>
     <!-- /.portfolio -->
-    <section class="developer container">
+    <section class="developer container" id="developer">
       <img
         src="images/developer-photo1.jpg"
         alt="Анна Бурмистрова"
@@ -213,7 +217,7 @@
       <!-- /.developer-about -->
     </section>
     <!-- /.developer container -->
-    <section class="skills container">
+    <section class="skills container" id="skills">
       <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
       <ul class="tags">
         <li class="tags-item">
@@ -246,8 +250,8 @@
       </ul>
     </section>
     <!-- /.skills -->
-    <section class="feedback">
-      <img src="/images/hand.png" alt="hand" class="feedback-hand" />
+    <section class="feedback" id="feedback">
+      <img src="/images/hand1.png" alt="hand" class="feedback-hand" />
       <div class="form-container">
         <h2 class="feedback-title">Готова обсудить проект...</h2>
         <form action="#" class="form">
